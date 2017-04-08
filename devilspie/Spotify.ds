@@ -1,0 +1,10 @@
+; generated_rule Spotify
+( if 
+( begin 
+( is ( window_class ) "Spotify" )
+) 
+( begin 
+( set_workspace 4 )
+( println "match" )
+)
+)

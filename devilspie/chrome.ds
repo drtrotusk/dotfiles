@@ -1,0 +1,13 @@
+; generated_rule chrome
+( if 
+( begin 
+( is ( application_name ) "google-chrome" )
+( contains ( window_name ) "Google" )
+) 
+( begin 
+( maximize )
+( spawn_async "wmctrl -s 0" )
+( set_workspace 1 )
+( println "match" )
+)
+)

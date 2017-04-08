@@ -1,0 +1,14 @@
+; generated_rule deluge
+( if 
+( begin 
+( contains ( application_name ) "deluge" )
+) 
+( begin 
+( maximize )
+( spawn_async "wmctrl -s 4" )
+( set_workspace 5 )
+( maximize_vertically )
+( maximize_horizontally )
+( println "match" )
+)
+)
