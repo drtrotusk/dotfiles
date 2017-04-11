@@ -4,12 +4,17 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/maxim/.oh-my-zsh
 
-# Start
+## Start
 /home/maxim/Other/pukeskull
+# Start autojump
+source /usr/share/autojump/autojump.sh
 
 # SSH Variables
 export crius=drtrotusk@crius.feralhosting.com
 alias bertram="autossh osmc@192.168.1.5"
+
+# My alias
+alias szsh='source ~/.zshrc'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
