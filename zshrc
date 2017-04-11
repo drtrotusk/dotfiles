@@ -9,7 +9,7 @@
 
 # SSH Variables
 export crius=drtrotusk@crius.feralhosting.com
-alias bertram="ssh osmc@192.168.1.5"
+alias bertram="autossh osmc@192.168.1.5"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
