@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Note to self:
+# Make a symlink to this file into /lib/systemd/system-sleep
+# Also make sure that everything is according to this tutorial: http://serverfault.com/questions/590706/openvpn-client-force-dns-server
+
+case $1/$2 in
+  pre/*)
+      sudo service openvpnauto stop
+          ;;
+  post/*)
+	sudo service openvpnauto start
+          ;;
+esac

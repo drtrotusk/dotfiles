@@ -9,6 +9,9 @@
 # Description:       OpenVPN Autoconnect
 ### END INIT INFO
 
+# Note to self:
+# Copy the file to init.d and update it
+
 
 # Documentation available at
 # http://refspecs.linuxfoundation.org/LSB_3.1.0/LSB-Core-generic/LSB-Core-generic/iniscrptfunc.html
