@@ -64,7 +64,7 @@ ZSH_THEME="bullet-train"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git debian nyan pip web-search)
+plugins=(git debian nyan pip web-search vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
