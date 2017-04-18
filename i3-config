@@ -197,6 +197,7 @@ exec spotify %U --ap=194.132.196.162
 exec albert
 exec google-chrome
 exec mate-power-manager
+exec clipit
 
 # Wallpaper
 exec_always feh --bg-scale /home/maxim/Pictures/FEPDZ8M.jpg
