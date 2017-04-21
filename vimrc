@@ -18,6 +18,13 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'morhetz/gruvbox'
+
+" Optional:
+Plugin 'honza/vim-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -80,5 +87,10 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 " My settings
-hi Comment ctermfg=LightBlue
+" hi Comment ctermfg=LightBlue
+let g:gruvbox_italic=1
+colorscheme gruvbox
+set background=dark
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+:imap <C-J> <Plug>snipMateNextOrTrigger
+:smap <C-J> <Plug>snipMateNextOrTrigger

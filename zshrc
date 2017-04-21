@@ -8,6 +8,8 @@
 /home/maxim/Other/pukeskull
 # Start autojump
 source /usr/share/autojump/autojump.sh
+# Source vim theme colors
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # SSH Variables
 export crius=drtrotusk@crius.feralhosting.com
