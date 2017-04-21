@@ -22,6 +22,8 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'morhetz/gruvbox'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 " Optional:
 Plugin 'honza/vim-snippets'
@@ -89,8 +91,10 @@ endif
 " My settings
 " hi Comment ctermfg=LightBlue
 let g:gruvbox_italic=1
-colorscheme gruvbox
+colorscheme seoul256
 set background=dark
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 :imap <C-J> <Plug>snipMateNextOrTrigger
 :smap <C-J> <Plug>snipMateNextOrTrigger
+set number
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
