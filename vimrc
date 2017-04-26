@@ -20,7 +20,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
+"Plugin 'garbas/vim-snipmate'
+Plugin 'SirVer/ultisnips'
 Plugin 'morhetz/gruvbox'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -95,8 +96,11 @@ let g:gruvbox_italic=1
 colorscheme seoul256
 set background=dark
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
-:imap <C-J> <Plug>snipMateNextOrTrigger
-:smap <C-J> <Plug>snipMateNextOrTrigger
+":imap <C-J> <Plug>snipMateNextOrTrigger
+":smap <C-J> <Plug>snipMateNextOrTrigger
+let g:UltiSnipsExpandTrigger="<C-J>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set number
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 :set colorcolumn=80
