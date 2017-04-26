@@ -99,3 +99,5 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 set number
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 :set colorcolumn=80
+" Apply YCM FixIt
+map <F9> :YcmCompleter FixIt<CR>
