@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/maxim/College/Semester 2/C/Exercise 2/q1_a'
+let g:netrw_dirhist_2='/home/maxim/.oh-my-zsh/plugins/git'
+let g:netrw_dirhist_3='/home/maxim/College/Semester 2/C/Exercise 2/q1_b'
