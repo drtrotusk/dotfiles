@@ -24,6 +24,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'morhetz/gruvbox'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'scrooloose/nerdcommenter'
 
 " Optional:
 Plugin 'honza/vim-snippets'
