@@ -13,6 +13,7 @@ source /usr/share/autojump/autojump.sh
 export crius=drtrotusk@crius.feralhosting.com
 alias bertram="autossh osmc@192.168.1.5"
 alias crius="autossh drtrotusk@crius.feralhosting.com"
+alias cftp="lftp -u drtrotusk, sftp://crius.feralhosting.com"
 
 # My alias
 alias szsh='source ~/.zshrc'
