@@ -98,7 +98,7 @@ bindsym $mod+a focus parent
 
 # Workspaces Names
 set $workspace1 "1. "
-set $workspace2 "2. "
+set $workspace2 "2. "
 set $workspace3 "3. "
 set $workspace4 "4. "
 set $workspace5 "5. "
@@ -229,6 +229,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # bar
 bar {
+        font xft: FontAwesome 8
   	status_command i3blocks
   	colors {
   		background $bg-color
